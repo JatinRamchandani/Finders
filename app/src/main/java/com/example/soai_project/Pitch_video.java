@@ -37,7 +37,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class Pitch_video extends AppCompatActivity {
-    private static final String BUCKET_NAME ="bucket-for-app" ;
+    private static final String BUCKET_NAME ="bucket" ;
     private ImageView img2;
     private String[] mNavigationDrawerItemTitles;
     private DrawerLayout mDrawerLayout;
@@ -54,9 +54,9 @@ public class Pitch_video extends AppCompatActivity {
 
 
 
-    private static final String AWS_BUCKET ="bucket-for-app" ;
-    private final String KEY = "AKIA54H4UQOWKMJQ3YC4";
-    private final String SECRET = "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";
+    private static final String AWS_BUCKET ="bucket" ;
+    private final String KEY = "k";
+    private final String SECRET = "sk";
 
 
     private BasicAWSCredentials credentials;
