@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Founderr1.CommonRegisterActivity1"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/registerNowTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registerNow"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/textBlue"/>
+
+    <TextView
+        android:id="@+id/registerFundsTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_now_to_start_generating_funds"
+        android:textColor="@color/textBlue"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputFNameET"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_white_bg"
+            android:hint="@string/fname"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputLName"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/inputFNameET"
+            android:background="@drawable/rounded_white_bg"
+            android:hint="@string/lname"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/signUPemailET"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_white_bg"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:hint="@string/email"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/signUpPwdET"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_white_bg"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:hint="@string/password"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/dobET"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_white_bg"
+            android:inputType="date"
+            android:hint="@string/dob"
+            android:padding="10dp"
+            android:textSize="20sp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cityCountryET"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_white_bg"
+            android:inputType="text"
+            android:hint="@string/cityCountry"
+            android:layout_toRightOf="@+id/dobET"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/nextReg1"
+        android:layout_width="150dp"
+
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_blue_bg"
+        android:padding="10dp"
+        android:text="@string/next"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>

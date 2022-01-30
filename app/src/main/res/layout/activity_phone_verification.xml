@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="36sp"
+        android:layout_centerHorizontal="true"
+        android:text="Enter Phone"
+        android:textStyle="bold"
+        android:id="@+id/text_head_otp"
+        android:textColor="@color/white"
+        android:layout_above="@+id/subhead_otp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textSize="16sp"
+        android:id="@+id/subhead_otp"
+        android:layout_marginBottom="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="30dp"
+        android:textAlignment="center"
+        android:layout_above="@id/otp_view"
+        android:text="An OTP will be sent to the registered phone number"
+        android:textColor="@color/white" />
+
+    <com.mukesh.OtpView
+        android:id="@+id/otp_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:inputType="number"
+        android:itemBackground="@color/colorPrimary"
+        android:textColor="@color/white"
+        app:OtpItemHeight="35dp"
+        app:OtpItemWidth="30dp"
+        app:OtpItemCount="10"
+        app:OtpViewType="line" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@id/otp_view"
+        android:layout_margin="100dp"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"/>
+
+</RelativeLayout>

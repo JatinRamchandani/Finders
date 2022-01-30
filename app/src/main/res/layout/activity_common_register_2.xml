@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommonRegisterActivity2"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/greatTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/great"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/textBlue"/>
+
+    <TextView
+        android:id="@+id/registerFundsTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profBG"
+        android:textColor="@color/textBlue"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/spinnerLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/qualificationTV"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_white_bg"
+        android:hint="@string/chooseEducationalQualification"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"/>
+
+        <Spinner
+            android:id="@+id/spinnerQualification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/select"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/summaryET"
+        android:layout_width="375dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_white_bg"
+        android:padding="10dp"
+        android:hint="@string/summary"
+        android:textSize="20sp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/linkedinET"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_white_bg"
+        android:padding="10dp"
+        android:hint="@string/linkedin"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/nextReg2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_blue_bg"
+        android:padding="10dp"
+        android:text="@string/next"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>

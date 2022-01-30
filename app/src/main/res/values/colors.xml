@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blueMain">#2799fa</color>
+    <color name="fgray">#c9c9c9</color>
+    <color name="login_and_signup_color">#3e3e3e</color>
+    <color name="textBlue">#0E75D3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="creamwhite">#FFFEF2</color>
+    <color name="userpronav">#3700B3</color>
+    <color name="userpronav2">#03DAC5</color>
+</resources>

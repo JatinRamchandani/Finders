@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FounderRegisterActivity1"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ideaTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idea"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="115dp"
+        android:textColor="@color/textBlue"/>
+
+    <TextView
+        android:id="@+id/explainIdeaTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/explainIdea"
+        android:textColor="@color/textBlue"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/nameTitleET"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_white_bg"
+        android:padding="10dp"
+        android:hint="@string/nameTitle"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:id="@+id/spinner2LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/categoryTV"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_white_bg"
+            android:hint="@string/chooseCategory"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/select"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/spinner3LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/stageTV"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_white_bg"
+            android:hint="@string/ideaStage"
+            android:padding="10dp"
+            android:textSize="20sp"/>
+
+        <Spinner
+            android:id="@+id/spinnerStage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/select"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/spinnerfounder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="7dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pitchupload"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_white_bg"
+            android:padding="10dp"
+            android:hint="Filename.mp4"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:textSize="20sp"/>
+        <ImageView
+            android:id="@+id/pitchvideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:prompt="@string/select"
+            android:src="@drawable/video"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/mandatory"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="15dp"
+        android:text="*Mandatory"
+        android:textSize="14sp"
+        android:textColor="#FF0000"
+        />
+    <TextView
+        android:id="@+id/nextRegFounder1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_blue_bg"
+        android:padding="10dp"
+        android:text="@string/next"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="4dp"
+        android:id="@+id/senderimageper"
+        android:src="@drawable/person"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="48dp"
+            android:layout_marginStart="10dp"
+            android:padding="8dp"
+            android:textColor="#0E75D3"
+            android:id="@+id/receivedTxt"
+            android:textSize="16sp"
+            android:background="@drawable/rounded_corner4"
+            android:text="Hello this is a sample message" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SOAI_Project</string>
+    <string name="not_a_member_sign_up_now">Not a Member? Sign Up now</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="loginBtn">LOGIN</string>
+    <string name="email">E-mail</string>
+    <string name="phoneNum">Phone Number</string>
+    <string name="or">OR</string>
+    <string name="aboutYou">About You</string>
+    <string name="founder">FOUNDER</string>
+    <string name="funder">FUNDER</string>
+    <string name="founderOrFunder">Are you a founder or here to fund?</string>
+    <string name="registerNow">Register Now!</string>
+    <string name="register_now_to_start_generating_funds">Register now to start generating funds for your next big idea!</string>
+    <string name="name">Name</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="dob">Date of birth</string>
+    <string name="cityCountry">City | Country</string>
+    <string name="next">Next</string>
+    <string name="great">Great!</string>
+    <string name="profBG">Now tell us about your professional background!</string>
+    <string name="chooseEducationalQualification">Highest level of qualification</string>
+    <string name="select">Select</string>
+    <string name="summary">Mention your job/work history here, how it shaped your idea for tomorrow!</string>
+    <string name="linkedin">LinkedIn profile link(optional)</string>
+    <string name="idea">The !dea</string>
+    <string name="explainIdea">Explain a little bit about your idea for tomorrow!</string>
+    <string name="nameTitle">Name/Title</string>
+    <string name="chooseCategory">Choose category</string>
+    <string name="ideaStage">Choose idea stage</string>
+    <string name="littleMore">A Little more+</string>
+    <string name="joinDots">Join the remaining dots to the idea you\'ve implemented to life</string>
+    <string name="description">Describe your idea a little more...</string>
+    <string name="descriptionFunder">Describe yourself a little more...</string>
+    <string name="purpose">Explain the motivation and purpose that lead to this idea</string>
+    <string name="webLink">Insert your website</string>
+    <string name="skip">You can <b><i>skip</i></b> this part ></string>
+    <string name="letsTalkMoney">Let\'s talk Money!</string>
+    <string name="fillReqBelow">Fill the requirements below to let investors know how much you need</string>
+    <string name="fundsReq">Funds Required(in INR)</string>
+    <string name="returnDis">Describe here about the return on investment to the investor</string>
+    <string name="detAbove">*Details above can include - share of equity, royalty paid to the investor, etc. Bullet points preferred for clear distribution</string>
+    <string name="finish">Finish</string>
+    <string name="yourInt">Your Interests</string>
+    <string name="tellAboutYourself">Tell us a little bit more about yourself. This way founders will understand you better</string>
+    <string name="letUsKnowInt">Let us know what interests you, so we can personalize your feed</string>
+    <string name="fillReqBelowFunder">Fill the requirements below to let founders know how much you are willing to invest</string>
+    <string name="payableAmt">Payable net amount(INR)</string>
+    <string name="returnInv">Describe the expected return on investment</string>
+    <string name="detAboveFunder">*Details above can include - share of equity expected, royalty expected, etc. Bullet points preferred for clear distribution</string>
+    <string name="pleaseEnterEmail">Please enter your registered E-mail ID below:</string>
+    <string name="sendEmail">Send</string>
+    <string name="weWillSendEmail">*We will send you an E-mail with a link to reset your password</string>
+    <string name="getStarted">Get Started!</string>
+    <string name="signIn">Already have an account? Sign in.</string>
+    <string-array name="navigation_drawer_items_array">
+        <item>Connect</item>
+        <item>Fixtures</item>
+        <item>Table</item>
+    </string-array>
+</resources>

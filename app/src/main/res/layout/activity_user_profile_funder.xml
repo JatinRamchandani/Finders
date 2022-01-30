@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfileFunder"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/openmenu1"
+            android:layout_width="42dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/openmenu1"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="30dp"
+            app:cardCornerRadius="60dp"
+            app:cardElevation="5dp"
+            android:clickable="true"
+            app:cardBackgroundColor="#F0F8F8">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="User Profile"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#0E75D3"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tap to edit"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textColor="#990E75D3"
+                    />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        >
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/first"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardElevation="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="50dp"
+            android:layout_marginTop="90dp"
+
+
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:background="@drawable/cardview1"
+                >
+
+
+
+
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@null"
+                android:src="@drawable/person" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abcd Xyz"
+                android:textSize="25sp"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Founder of tomorrow's company"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Delhi, India"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textColor="#FFF"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/profilebut"
+                    android:text="About"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:textColor="#0E75D3"/>
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/profilebut"
+                    android:textAllCaps="false"
+                    android:text="Portfolio"
+                    android:textSize="18sp"
+                    android:textColor="#0E75D3"/>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/profilebut"
+                    android:text="!dea"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:textColor="#0E75D3"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hi I'm an Angel Investor and I invest in
+                                                                 companies  that invest in tomorrow's future.Feel
+                        free to contact e and discuss the details."
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textStyle="italic"
+                android:layout_marginTop="30dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:orientation="horizontal"
+                android:layout_marginRight="35dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="30dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/chat1"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="inbox"
+                        android:textColor="#FFF"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="40dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:src="@drawable/trackinvest"
+                        android:layout_gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Track Investment"
+                        android:textAlignment="center"
+                        android:textColor="#FFF"
+
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="90dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/homerun"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Home"
+                        android:textAlignment="center"
+                        android:textColor="#FFF"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_marginTop="150dp"-->
+    <!--        app:cardBackgroundColor="#0E75D3"-->
+    <!--        android:id="@+id/cardprofile"-->
+    <!--        >-->
+
+    <!--        -->
+    <!--    </androidx.cardview.widget.CardView>-->
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:src="@drawable/person" />-->
+</LinearLayout>
+

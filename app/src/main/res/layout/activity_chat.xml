@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity"
+    android:layoutDirection="ltr">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/messageEdit"
+        android:layout_marginBottom="5dp" />
+    <EditText
+        android:id="@+id/messageEdit"
+        android:layout_toStartOf="@id/sendBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:padding="6dp"
+        android:layout_height="45dp"
+        android:background="@layout/edit_text"
+        android:hint="Type something..."
+        android:textColorHint="#000000"
+        android:textSize="15sp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chatsend"
+        android:padding="10dp"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/sendBtn"
+        android:textColor="@color/colorPrimary" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/add_button"
+        android:tint="@color/colorPrimary"
+        android:padding="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@id/messageEdit"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/pickImgBtn"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

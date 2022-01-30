@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:text="Profile Photo"
+
+                android:textSize="17sp"
+                android:id="@+id/profilepic2"
+                android:textColor="@color/textBlue"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:text="About You"
+                android:id="@+id/aboutyou2"
+                android:textSize="17sp"
+
+                android:textColor="@color/textBlue"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+
+                android:text="Summary"
+                android:textSize="17sp"
+                android:id="@+id/summary2"
+                android:textColor="@color/textBlue"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Live Location"
+                android:textSize="17sp"
+                android:textColor="@color/textBlue"
+                android:textStyle="bold"/>
+
+            <Switch
+                android:id="@+id/switchpri1"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="260dp"
+                android:gravity="center_vertical"
+                android:thumb="@drawable/thumb1"
+                android:track="@drawable/track1"
+                app:showText="true" />
+        </FrameLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Chat"
+                    android:textSize="17sp"
+                    android:textColor="@color/textBlue"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="40dp"
+                    android:text="Read Reciepts"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/textBlue"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="40dp"
+                    android:text="if turned off, you won't send or recieve"
+                    android:layout_marginTop="7dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/textBlue"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="40dp"
+                    android:text="Read Reciepts '(seen)' in your Inbox"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/textBlue"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <Switch
+                android:id="@+id/switchpri2"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                app:showText="true"
+                android:gravity="center_vertical"
+                android:thumb="@drawable/thumb1"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="30dp"
+                android:track="@drawable/track1"
+                />
+        </FrameLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

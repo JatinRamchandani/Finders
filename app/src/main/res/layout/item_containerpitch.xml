@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#0E75D3">
+    <VideoView
+        android:id="@+id/video_pith"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ProgressBar
+        android:id="@+id/pitch_progressbar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/person"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp">
+            <TextView
+                android:id="@+id/Company_nametext"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:id="@+id/Company_loactiontext"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                android:textSize="15sp"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imagequery"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/info1"
+            android:layout_marginRight="10dp"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/video_pith"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:id="@+id/Company_decriptiontext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="15sp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:text="Description: "
+            />
+        <TextView
+            android:id="@+id/Company_filleddestext"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+
+            android:textSize="13sp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_volume_down_24"
+            android:layout_marginStart="30dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
